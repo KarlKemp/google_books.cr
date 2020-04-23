@@ -1,5 +1,7 @@
-name: google_books
+name: google_books.cr
 version: 0.1.0
+description: |
+  Simple api client to talk to Google Books
 
 authors:
   - Matthew McGarvey <tnraptor14@hotmail.com>

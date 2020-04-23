@@ -1,6 +1,8 @@
-# google_books
+# google_books.cr
 
-TODO: Write a description here
+Simple api client to talk to Google Books
+
+[![GitHub release](https://img.shields.io/github/release/matthewmcgarvey/google_books.cr.svg)](https://github.com/matthewmcgarvey/google_books.cr/releases)
 
 ## Installation
 
@@ -9,7 +11,7 @@ TODO: Write a description here
    ```yaml
    dependencies:
      google_books:
-       github: your-github-user/google_books
+       github: matthewmcgarvey/google_books.cr
    ```
 
 2. Run `shards install`
@@ -28,7 +30,7 @@ TODO: Write development instructions here
 
 ## Contributing
 
-1. Fork it (<https://github.com/your-github-user/google_books/fork>)
+1. Fork it (<https://github.com/matthewmcgarve/google_books.cr/fork>)
 2. Create your feature branch (`git checkout -b my-new-feature`)
 3. Commit your changes (`git commit -am 'Add some feature'`)
 4. Push to the branch (`git push origin my-new-feature`)
@@ -36,4 +38,4 @@ TODO: Write development instructions here
 
 ## Contributors
 
-- [Matthew McGarvey](https://github.com/your-github-user) - creator and maintainer
+- [Matthew McGarvey](https://github.com/matthewmcgarvey) - creator and maintainer
