@@ -1,0 +1,101 @@
+HTTP/1.1 200 OK
+Expires: Thu, 23 Apr 2020 22:57:07 GMT
+Date: Thu, 23 Apr 2020 22:57:07 GMT
+Cache-Control: private, max-age=0, must-revalidate, no-transform
+ETag: "9UcOB1bEN68_AJTyyQbHlA2_Izc/UoksfsDTfkncEK3RrUSrpQalVLA"
+Vary: Origin
+Vary: X-Origin
+Content-Type: application/json; charset=UTF-8
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Content-Security-Policy: frame-ancestors 'self'
+X-XSS-Protection: 1; mode=block
+Server: GSE
+Alt-Svc: quic=":443"; ma=2592000; v="46,43",h3-Q050=":443"; ma=2592000,h3-Q049=":443"; ma=2592000,h3-Q048=":443"; ma=2592000,h3-Q046=":443"; ma=2592000,h3-Q043=":443"; ma=2592000,h3-T050=":443"; ma=2592000
+Connection: close
+Transfer-Encoding: chunked
+Content-Length: 3723
+
+{
+ "kind": "books#volume",
+ "id": "P6bzCgUuVroC",
+ "etag": "9dfBI/vwgXk",
+ "selfLink": "https://www.googleapis.com/books/v1/volumes/P6bzCgUuVroC",
+ "volumeInfo": {
+  "title": "Harper Lee's To Kill a Mockingbird",
+  "subtitle": "A Full-length Play",
+  "authors": [
+   "Christopher Sergel"
+  ],
+  "publisher": "Dramatic Publishing",
+  "publishedDate": "1970",
+  "description": "Dramatization of the story about the explosion of racial hate in an Alabama town as viewed by a little girl whose father defends a black man accused of rape.",
+  "industryIdentifiers": [
+   {
+    "type": "ISBN_10",
+    "identifier": "0871290863"
+   },
+   {
+    "type": "ISBN_13",
+    "identifier": "9780871290861"
+   }
+  ],
+  "readingModes": {
+   "text": false,
+   "image": true
+  },
+  "pageCount": 202,
+  "printedPageCount": 116,
+  "dimensions": {
+   "height": "19.00 cm",
+   "width": "12.70 cm",
+   "thickness": "1.30 cm"
+  },
+  "printType": "BOOK",
+  "categories": [
+   "Performing Arts / Film / History & Criticism"
+  ],
+  "averageRating": 5.0,
+  "ratingsCount": 1,
+  "maturityRating": "NOT_MATURE",
+  "allowAnonLogging": false,
+  "contentVersion": "0.0.2.0.preview.1",
+  "panelizationSummary": {
+   "containsEpubBubbles": false,
+   "containsImageBubbles": false
+  },
+  "imageLinks": {
+   "smallThumbnail": "http://books.google.com/books/content?id=P6bzCgUuVroC&printsec=frontcover&img=1&zoom=5&edge=curl&imgtk=AFLRE715lDKv4NUfzL6rLZrI2TEqpAQqYyy3QIYDYEKwo-SKduiSS5dQCJqx0HfD2CHuqEAunH5NXvByiKxiAUvser6F7HiX7xEl-HIrtm0C5adhNFVdCU4bLNW6DUn9WdPE7ZupIUPa&source=gbs_api",
+   "thumbnail": "http://books.google.com/books/content?id=P6bzCgUuVroC&printsec=frontcover&img=1&zoom=1&edge=curl&imgtk=AFLRE73inWoUAEpzTutI-BVNaEGO-mrsQCa9s4AhFXn8c18SUlDKdzy8bu5gcf_1-k_Kfznyy7Eexsob2GFuhOKXfyD4_gN3KnR8ka-VaAGwy5RXz7gl0j4mUqh05Zx0rGUg-4ch8HgR&source=gbs_api",
+   "small": "http://books.google.com/books/content?id=P6bzCgUuVroC&printsec=frontcover&img=1&zoom=2&edge=curl&imgtk=AFLRE70tAQjMZfOw4v3jcGLHUPe330j-mT49iO-Qr66rR2RRicP_1dyOB5poQUd3P02IVR1SgU3DIvAxaxgRsMoVjxDRG7dZaG5hvt5o9uLgbGZGsUizxYU1OEjkxDNaaDZekAacYncR&source=gbs_api",
+   "medium": "http://books.google.com/books/content?id=P6bzCgUuVroC&printsec=frontcover&img=1&zoom=3&edge=curl&imgtk=AFLRE73WszKiVaUjFz09pp-_D8ToKIPQwmKosm-TqDLpbNy_cOGSiqxFzL8KEhSh8jgV5wx_sHpMky8d_n5M24E3nGAapYaBSp2wPk9vPaYVRHYL19jsKeQR5pxMKXcCP4fFHlY4f-dQ&source=gbs_api",
+   "large": "http://books.google.com/books/content?id=P6bzCgUuVroC&printsec=frontcover&img=1&zoom=4&edge=curl&imgtk=AFLRE73JSDdFb0cPl_4l8Sn4XgJa9_HwPQTFZJbB1TWJioWlnKxf18cROOKx79o6D-wH7XbZjNjsF9dvmFzZ5eCgURotmpbGv7w4WIsD8Ww6wT1ODFqAk7jSK8MtkiB0AxmKEiY11rCo&source=gbs_api",
+   "extraLarge": "http://books.google.com/books/content?id=P6bzCgUuVroC&printsec=frontcover&img=1&zoom=6&edge=curl&imgtk=AFLRE72qAdrX3STmHA6c9JDnWQMOlDl17NHHXa7EdfTjtekiP7P_P924QwjW3cstRjhTfoWEv8cnCyYPS28pWWZjjh7uM0sKcuiHZ7-giw8oJt67iK0o53iVcEbC16WhmMDGGdoWxYwv&source=gbs_api"
+  },
+  "language": "en",
+  "previewLink": "http://books.google.com/books?id=P6bzCgUuVroC&hl=&source=gbs_api",
+  "infoLink": "https://play.google.com/store/books/details?id=P6bzCgUuVroC&source=gbs_api",
+  "canonicalVolumeLink": "https://play.google.com/store/books/details?id=P6bzCgUuVroC"
+ },
+ "saleInfo": {
+  "country": "US",
+  "saleability": "NOT_FOR_SALE",
+  "isEbook": false
+ },
+ "accessInfo": {
+  "country": "US",
+  "viewability": "PARTIAL",
+  "embeddable": true,
+  "publicDomain": false,
+  "textToSpeechPermission": "ALLOWED",
+  "epub": {
+   "isAvailable": false
+  },
+  "pdf": {
+   "isAvailable": false
+  },
+  "webReaderLink": "http://play.google.com/books/reader?id=P6bzCgUuVroC&hl=&printsec=frontcover&source=gbs_api",
+  "accessViewStatus": "SAMPLE",
+  "quoteSharingAllowed": false
+ }
+}

@@ -1,6 +1,6 @@
-# TODO: Write documentation for `GoogleBooks`
+require "json"
+require "./google_books/**"
+
 module GoogleBooks
   VERSION = "0.1.0"
-
-  # TODO: Put your code here
 end

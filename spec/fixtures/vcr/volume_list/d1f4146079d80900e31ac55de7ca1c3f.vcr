@@ -1,0 +1,819 @@
+HTTP/1.1 200 OK
+Expires: Thu, 23 Apr 2020 22:39:33 GMT
+Date: Thu, 23 Apr 2020 22:39:33 GMT
+Cache-Control: private, max-age=0, must-revalidate, no-transform
+ETag: "9UcOB1bEN68_AJTyyQbHlA2_Izc/-6AubX0I0tI3TBIw8KUqDQxj2e8"
+Vary: Origin
+Vary: X-Origin
+Content-Type: application/json; charset=UTF-8
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Content-Security-Policy: frame-ancestors 'self'
+X-XSS-Protection: 1; mode=block
+Server: GSE
+Alt-Svc: quic=":443"; ma=2592000; v="46,43",h3-Q050=":443"; ma=2592000,h3-Q049=":443"; ma=2592000,h3-Q048=":443"; ma=2592000,h3-Q046=":443"; ma=2592000,h3-Q043=":443"; ma=2592000,h3-T050=":443"; ma=2592000
+Connection: close
+Transfer-Encoding: chunked
+Content-Length: 32258
+
+{
+ "kind": "books#volumes",
+ "totalItems": 440,
+ "items": [
+  {
+   "kind": "books#volume",
+   "id": "mqaBtUHEwdgC",
+   "etag": "L82KNCL8+AI",
+   "selfLink": "https://www.googleapis.com/books/v1/volumes/mqaBtUHEwdgC",
+   "volumeInfo": {
+    "title": "Bluestown Mockingbird Mambo",
+    "authors": [
+     "Sandra Maria Esteves"
+    ],
+    "publisher": "Arte Publico Press",
+    "industryIdentifiers": [
+     {
+      "type": "ISBN_10",
+      "identifier": "1611920728"
+     },
+     {
+      "type": "ISBN_13",
+      "identifier": "9781611920727"
+     }
+    ],
+    "readingModes": {
+     "text": true,
+     "image": true
+    },
+    "printType": "BOOK",
+    "maturityRating": "NOT_MATURE",
+    "allowAnonLogging": true,
+    "contentVersion": "0.0.2.0.preview.3",
+    "imageLinks": {
+     "smallThumbnail": "http://books.google.com/books/content?id=mqaBtUHEwdgC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+     "thumbnail": "http://books.google.com/books/content?id=mqaBtUHEwdgC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    "language": "en",
+    "previewLink": "http://books.google.com/books?id=mqaBtUHEwdgC&printsec=frontcover&dq=intitle:Mockingbird&hl=&cd=1&source=gbs_api",
+    "infoLink": "https://play.google.com/store/books/details?id=mqaBtUHEwdgC&source=gbs_api",
+    "canonicalVolumeLink": "https://play.google.com/store/books/details?id=mqaBtUHEwdgC"
+   },
+   "saleInfo": {
+    "country": "US",
+    "saleability": "FOR_SALE",
+    "isEbook": true,
+    "listPrice": {
+     "amount": 5.6,
+     "currencyCode": "USD"
+    },
+    "retailPrice": {
+     "amount": 4.31,
+     "currencyCode": "USD"
+    },
+    "buyLink": "https://play.google.com/store/books/details?id=mqaBtUHEwdgC&rdid=book-mqaBtUHEwdgC&rdot=1&source=gbs_api",
+    "offers": [
+     {
+      "finskyOfferType": 1,
+      "listPrice": {
+       "amountInMicros": 5600000.0,
+       "currencyCode": "USD"
+      },
+      "retailPrice": {
+       "amountInMicros": 4310000.0,
+       "currencyCode": "USD"
+      },
+      "giftable": true
+     }
+    ]
+   },
+   "accessInfo": {
+    "country": "US",
+    "viewability": "PARTIAL",
+    "embeddable": true,
+    "publicDomain": false,
+    "textToSpeechPermission": "ALLOWED",
+    "epub": {
+     "isAvailable": true
+    },
+    "pdf": {
+     "isAvailable": true
+    },
+    "webReaderLink": "http://play.google.com/books/reader?id=mqaBtUHEwdgC&hl=&printsec=frontcover&source=gbs_api",
+    "accessViewStatus": "SAMPLE",
+    "quoteSharingAllowed": false
+   }
+  },
+  {
+   "kind": "books#volume",
+   "id": "Y_R-HvA4DI0C",
+   "etag": "576StGWOO3I",
+   "selfLink": "https://www.googleapis.com/books/v1/volumes/Y_R-HvA4DI0C",
+   "volumeInfo": {
+    "title": "The Mockingbird",
+    "authors": [
+     "Robin W. Doughty"
+    ],
+    "publisher": "University of Texas Press",
+    "publishedDate": "1995-01-01",
+    "description": "A brief illustrated study of the mockingbird.",
+    "industryIdentifiers": [
+     {
+      "type": "ISBN_10",
+      "identifier": "0292715846"
+     },
+     {
+      "type": "ISBN_13",
+      "identifier": "9780292715844"
+     }
+    ],
+    "readingModes": {
+     "text": true,
+     "image": true
+    },
+    "pageCount": 80,
+    "printType": "BOOK",
+    "categories": [
+     "Nature"
+    ],
+    "averageRating": 4.0,
+    "ratingsCount": 1,
+    "maturityRating": "NOT_MATURE",
+    "allowAnonLogging": false,
+    "contentVersion": "0.0.4.0.preview.3",
+    "panelizationSummary": {
+     "containsEpubBubbles": false,
+     "containsImageBubbles": false
+    },
+    "imageLinks": {
+     "smallThumbnail": "http://books.google.com/books/content?id=Y_R-HvA4DI0C&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+     "thumbnail": "http://books.google.com/books/content?id=Y_R-HvA4DI0C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    "language": "en",
+    "previewLink": "http://books.google.com/books?id=Y_R-HvA4DI0C&printsec=frontcover&dq=intitle:Mockingbird&hl=&cd=2&source=gbs_api",
+    "infoLink": "http://books.google.com/books?id=Y_R-HvA4DI0C&dq=intitle:Mockingbird&hl=&source=gbs_api",
+    "canonicalVolumeLink": "https://books.google.com/books/about/The_Mockingbird.html?hl=&id=Y_R-HvA4DI0C"
+   },
+   "saleInfo": {
+    "country": "US",
+    "saleability": "NOT_FOR_SALE",
+    "isEbook": false
+   },
+   "accessInfo": {
+    "country": "US",
+    "viewability": "PARTIAL",
+    "embeddable": true,
+    "publicDomain": false,
+    "textToSpeechPermission": "ALLOWED",
+    "epub": {
+     "isAvailable": true
+    },
+    "pdf": {
+     "isAvailable": false
+    },
+    "webReaderLink": "http://play.google.com/books/reader?id=Y_R-HvA4DI0C&hl=&printsec=frontcover&source=gbs_api",
+    "accessViewStatus": "SAMPLE",
+    "quoteSharingAllowed": false
+   },
+   "searchInfo": {
+    "textSnippet": "A brief illustrated study of the mockingbird. This is a book which might be best placed into its own category of being an &#39;everything you wanted to know&#39; about the Northern Mockingbird, but never knew enough to ask."
+   }
+  },
+  {
+   "kind": "books#volume",
+   "id": "4bCfAgAAQBAJ",
+   "etag": "+UGK1XDn+ng",
+   "selfLink": "https://www.googleapis.com/books/v1/volumes/4bCfAgAAQBAJ",
+   "volumeInfo": {
+    "title": "I Kill the Mockingbird",
+    "authors": [
+     "Paul Acampora"
+    ],
+    "publisher": "Roaring Brook Press",
+    "publishedDate": "2014-05-20",
+    "description": "When Lucy, Elena, and Michael receive their summer reading list, they are excited to see To Kill A Mockingbird included. But not everyone in their class shares the same enthusiasm. So they hatch a plot to get the entire town talking about the well-known Harper Lee classic. They plan controversial ways to get people to read the book, including re-shelving copies of the book in bookstores so that people think they are missing and starting a website committed to \"destroying the mockingbird.\" Their efforts are successful when all of the hullabaloo starts to direct more people to the book. But soon, their exploits start to spin out of control and they unwittingly start a mini revolution in the name of books. I Kill the Mockingbird by Paul Acampora is a middle grade novel perfect for fans of To Kill a Mockingbird andGo Set a Watchman. This title has Common Core connections. “The banter among the three whip-smart friends would make John Green proud. . . . You won't have to hide any copies of this to create demand.” —The Bulletin “Fans of Janet Tashjian's The Gospel According to Larry series will enjoy this look at how the power of creativity and the internet can cause a cultural movement. . . . Acampora's novel is for lovers of literature, especially how the classics work in the current moment.” —VOYA",
+    "industryIdentifiers": [
+     {
+      "type": "ISBN_13",
+      "identifier": "9781626720572"
+     },
+     {
+      "type": "ISBN_10",
+      "identifier": "1626720576"
+     }
+    ],
+    "readingModes": {
+     "text": true,
+     "image": false
+    },
+    "pageCount": 176,
+    "printType": "BOOK",
+    "categories": [
+     "Juvenile Fiction"
+    ],
+    "averageRating": 4.5,
+    "ratingsCount": 627,
+    "maturityRating": "NOT_MATURE",
+    "allowAnonLogging": true,
+    "contentVersion": "1.1.2.0.preview.2",
+    "panelizationSummary": {
+     "containsEpubBubbles": false,
+     "containsImageBubbles": false
+    },
+    "imageLinks": {
+     "smallThumbnail": "http://books.google.com/books/content?id=4bCfAgAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+     "thumbnail": "http://books.google.com/books/content?id=4bCfAgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    "language": "en",
+    "previewLink": "http://books.google.com/books?id=4bCfAgAAQBAJ&printsec=frontcover&dq=intitle:Mockingbird&hl=&cd=3&source=gbs_api",
+    "infoLink": "https://play.google.com/store/books/details?id=4bCfAgAAQBAJ&source=gbs_api",
+    "canonicalVolumeLink": "https://play.google.com/store/books/details?id=4bCfAgAAQBAJ"
+   },
+   "saleInfo": {
+    "country": "US",
+    "saleability": "FOR_SALE",
+    "isEbook": true,
+    "listPrice": {
+     "amount": 5.67,
+     "currencyCode": "USD"
+    },
+    "retailPrice": {
+     "amount": 5.67,
+     "currencyCode": "USD"
+    },
+    "buyLink": "https://play.google.com/store/books/details?id=4bCfAgAAQBAJ&rdid=book-4bCfAgAAQBAJ&rdot=1&source=gbs_api",
+    "offers": [
+     {
+      "finskyOfferType": 1,
+      "listPrice": {
+       "amountInMicros": 5670000.0,
+       "currencyCode": "USD"
+      },
+      "retailPrice": {
+       "amountInMicros": 5670000.0,
+       "currencyCode": "USD"
+      },
+      "giftable": true
+     }
+    ]
+   },
+   "accessInfo": {
+    "country": "US",
+    "viewability": "PARTIAL",
+    "embeddable": true,
+    "publicDomain": false,
+    "textToSpeechPermission": "ALLOWED",
+    "epub": {
+     "isAvailable": true,
+     "acsTokenLink": "http://books.google.com/books/download/I_Kill_the_Mockingbird-sample-epub.acsm?id=4bCfAgAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+    },
+    "pdf": {
+     "isAvailable": false
+    },
+    "webReaderLink": "http://play.google.com/books/reader?id=4bCfAgAAQBAJ&hl=&printsec=frontcover&source=gbs_api",
+    "accessViewStatus": "SAMPLE",
+    "quoteSharingAllowed": false
+   },
+   "searchInfo": {
+    "textSnippet": "&quot; Their efforts are successful when all of the hullabaloo starts to direct more people to the book. But soon, their exploits start to spin out of control and they unwittingly start a mini revolution in the name of books."
+   }
+  },
+  {
+   "kind": "books#volume",
+   "id": "lVrTCwAAQBAJ",
+   "etag": "6FYDh4+6IVA",
+   "selfLink": "https://www.googleapis.com/books/v1/volumes/lVrTCwAAQBAJ",
+   "volumeInfo": {
+    "title": "Mockingbird",
+    "subtitle": "A Portrait of Harper Lee: From Scout to Go Set a Watchman",
+    "authors": [
+     "Charles J. Shields"
+    ],
+    "publisher": "Macmillan",
+    "publishedDate": "2016-04-26",
+    "description": "An extensively revised and updated edition of the bestselling biography of Harper Lee, reframed from the perspective of the recent publication of Lee's Go Set a Watchman To Kill a Mockingbird—the twentieth century's most widely read American novel—has sold thirty million copies and still sells a million yearly. In this in-depth biography, first published in 2006, Charles J. Shields brings to life the woman who gave us two of American literature's most unforgettable characters, Atticus Finch and his daughter, Scout. Years after its initial publication—with revisions throughout the book and a new epilogue—Shields finishes the story of Harper Lee's life, up to its end. There's her former agent getting her to transfer the copyright for To Kill a Mockingbird to him, the death of Lee's dear sister Alice, a fuller portrait of Lee’s editor, Tay Hohoff, and—most vitally—the release of Lee's long-buried first novel and the ensuing public devouring of what has truly become the book of the year, if not the decade: Lee's Go Set a Watchman.",
+    "industryIdentifiers": [
+     {
+      "type": "ISBN_13",
+      "identifier": "9781250115836"
+     },
+     {
+      "type": "ISBN_10",
+      "identifier": "1250115833"
+     }
+    ],
+    "readingModes": {
+     "text": false,
+     "image": false
+    },
+    "pageCount": 352,
+    "printType": "BOOK",
+    "categories": [
+     "Biography & Autobiography"
+    ],
+    "maturityRating": "NOT_MATURE",
+    "allowAnonLogging": false,
+    "contentVersion": "preview-1.0.0",
+    "imageLinks": {
+     "smallThumbnail": "http://books.google.com/books/content?id=lVrTCwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+     "thumbnail": "http://books.google.com/books/content?id=lVrTCwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    "language": "en",
+    "previewLink": "http://books.google.com/books?id=lVrTCwAAQBAJ&printsec=frontcover&dq=intitle:Mockingbird&hl=&cd=4&source=gbs_api",
+    "infoLink": "http://books.google.com/books?id=lVrTCwAAQBAJ&dq=intitle:Mockingbird&hl=&source=gbs_api",
+    "canonicalVolumeLink": "https://books.google.com/books/about/Mockingbird.html?hl=&id=lVrTCwAAQBAJ"
+   },
+   "saleInfo": {
+    "country": "US",
+    "saleability": "NOT_FOR_SALE",
+    "isEbook": false
+   },
+   "accessInfo": {
+    "country": "US",
+    "viewability": "PARTIAL",
+    "embeddable": true,
+    "publicDomain": false,
+    "textToSpeechPermission": "ALLOWED",
+    "epub": {
+     "isAvailable": false
+    },
+    "pdf": {
+     "isAvailable": false
+    },
+    "webReaderLink": "http://play.google.com/books/reader?id=lVrTCwAAQBAJ&hl=&printsec=frontcover&source=gbs_api",
+    "accessViewStatus": "SAMPLE",
+    "quoteSharingAllowed": false
+   },
+   "searchInfo": {
+    "textSnippet": "&quot;Originally published in hardcover in 2006 by Henry Holt and Company and in paperback in 2007 by St. Martin&#39;s Griffin&quot;--Title page verso."
+   }
+  },
+  {
+   "kind": "books#volume",
+   "id": "SzF8AwAAQBAJ",
+   "etag": "4UL5i9S5qio",
+   "selfLink": "https://www.googleapis.com/books/v1/volumes/SzF8AwAAQBAJ",
+   "volumeInfo": {
+    "title": "Mockingbird",
+    "authors": [
+     "Kathryn Erskine"
+    ],
+    "publisher": "Usborne Publishing Ltd",
+    "publishedDate": "2018-01-01",
+    "description": "Caitlin misses her brother every day. Since his death in a school shooting, she has no one to explain the world to her. And for Caitlin, the world is a confusing place. She hates it when colours get mixed up, prefers everything to be black-and-white, and needs to check her Facial Expressions Chart to understand emotions. So when Caitlin reads the definition of “closure”, she decides that’s what she needs. And as she struggles to find it, a world of colour begins to enter her black-and-white life...",
+    "industryIdentifiers": [
+     {
+      "type": "ISBN_13",
+      "identifier": "9781409541677"
+     },
+     {
+      "type": "ISBN_10",
+      "identifier": "1409541673"
+     }
+    ],
+    "readingModes": {
+     "text": true,
+     "image": true
+    },
+    "pageCount": 256,
+    "printType": "BOOK",
+    "categories": [
+     "Young Adult Fiction"
+    ],
+    "averageRating": 4.5,
+    "ratingsCount": 159,
+    "maturityRating": "NOT_MATURE",
+    "allowAnonLogging": true,
+    "contentVersion": "0.9.9.0.preview.3",
+    "panelizationSummary": {
+     "containsEpubBubbles": false,
+     "containsImageBubbles": false
+    },
+    "imageLinks": {
+     "smallThumbnail": "http://books.google.com/books/content?id=SzF8AwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+     "thumbnail": "http://books.google.com/books/content?id=SzF8AwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    "language": "en",
+    "previewLink": "http://books.google.com/books?id=SzF8AwAAQBAJ&printsec=frontcover&dq=intitle:Mockingbird&hl=&cd=5&source=gbs_api",
+    "infoLink": "http://books.google.com/books?id=SzF8AwAAQBAJ&dq=intitle:Mockingbird&hl=&source=gbs_api",
+    "canonicalVolumeLink": "https://books.google.com/books/about/Mockingbird.html?hl=&id=SzF8AwAAQBAJ"
+   },
+   "saleInfo": {
+    "country": "US",
+    "saleability": "NOT_FOR_SALE",
+    "isEbook": false
+   },
+   "accessInfo": {
+    "country": "US",
+    "viewability": "PARTIAL",
+    "embeddable": true,
+    "publicDomain": false,
+    "textToSpeechPermission": "ALLOWED",
+    "epub": {
+     "isAvailable": true,
+     "acsTokenLink": "http://books.google.com/books/download/Mockingbird-sample-epub.acsm?id=SzF8AwAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+    },
+    "pdf": {
+     "isAvailable": true,
+     "acsTokenLink": "http://books.google.com/books/download/Mockingbird-sample-pdf.acsm?id=SzF8AwAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+    },
+    "webReaderLink": "http://play.google.com/books/reader?id=SzF8AwAAQBAJ&hl=&printsec=frontcover&source=gbs_api",
+    "accessViewStatus": "SAMPLE",
+    "quoteSharingAllowed": false
+   },
+   "searchInfo": {
+    "textSnippet": "Caitlin misses her brother every day."
+   }
+  },
+  {
+   "kind": "books#volume",
+   "id": "r0dBDwAAQBAJ",
+   "etag": "veRmgjp6eTI",
+   "selfLink": "https://www.googleapis.com/books/v1/volumes/r0dBDwAAQBAJ",
+   "volumeInfo": {
+    "title": "Why To Kill a Mockingbird Matters",
+    "subtitle": "What Harper Lee's Book and the Iconic American Film Mean to Us Today",
+    "authors": [
+     "Tom Santopietro"
+    ],
+    "publisher": "St. Martin's Press",
+    "publishedDate": "2018-06-19",
+    "description": "Tom Santopietro, an author well-known for his writing about American popular culture, delves into the heart of the beloved classic and shows readers why To Kill a Mockingbird matters more today than ever before. With 40 million copies sold, To Kill a Mockingbird’s poignant but clear eyed examination of human nature has cemented its status as a global classic. Tom Santopietro's new book, Why To Kill a Mockingbird Matters, takes a 360 degree look at the Mockingbird phenomenon both on page and screen. Santopietro traces the writing of To Kill a Mockingbird, the impact of the Pulitzer Prize, and investigates the claims that Lee’s book is actually racist. Here for the first time is the full behind the scenes story regarding the creation of the 1962 film, one which entered the American consciousness in a way that few other films ever have. From the earliest casting sessions to the Oscars and the 50th Anniversary screening at the White House, Santopietro examines exactly what makes the movie and Gregory Peck’s unforgettable performance as Atticus Finch so captivating. As Americans yearn for an end to divisiveness, there is no better time to look at the significance of Harper Lee's book, the film, and all that came after.",
+    "industryIdentifiers": [
+     {
+      "type": "ISBN_13",
+      "identifier": "9781250163769"
+     },
+     {
+      "type": "ISBN_10",
+      "identifier": "1250163765"
+     }
+    ],
+    "readingModes": {
+     "text": true,
+     "image": false
+    },
+    "pageCount": 320,
+    "printType": "BOOK",
+    "categories": [
+     "Performing Arts"
+    ],
+    "averageRating": 4.5,
+    "ratingsCount": 2,
+    "maturityRating": "NOT_MATURE",
+    "allowAnonLogging": false,
+    "contentVersion": "1.1.2.0.preview.2",
+    "panelizationSummary": {
+     "containsEpubBubbles": false,
+     "containsImageBubbles": false
+    },
+    "imageLinks": {
+     "smallThumbnail": "http://books.google.com/books/content?id=r0dBDwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+     "thumbnail": "http://books.google.com/books/content?id=r0dBDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    "language": "en",
+    "previewLink": "http://books.google.com/books?id=r0dBDwAAQBAJ&printsec=frontcover&dq=intitle:Mockingbird&hl=&cd=6&source=gbs_api",
+    "infoLink": "https://play.google.com/store/books/details?id=r0dBDwAAQBAJ&source=gbs_api",
+    "canonicalVolumeLink": "https://play.google.com/store/books/details?id=r0dBDwAAQBAJ"
+   },
+   "saleInfo": {
+    "country": "US",
+    "saleability": "FOR_SALE",
+    "isEbook": true,
+    "listPrice": {
+     "amount": 13.99,
+     "currencyCode": "USD"
+    },
+    "retailPrice": {
+     "amount": 13.99,
+     "currencyCode": "USD"
+    },
+    "buyLink": "https://play.google.com/store/books/details?id=r0dBDwAAQBAJ&rdid=book-r0dBDwAAQBAJ&rdot=1&source=gbs_api",
+    "offers": [
+     {
+      "finskyOfferType": 1,
+      "listPrice": {
+       "amountInMicros": 1.399E7,
+       "currencyCode": "USD"
+      },
+      "retailPrice": {
+       "amountInMicros": 1.399E7,
+       "currencyCode": "USD"
+      },
+      "giftable": true
+     }
+    ]
+   },
+   "accessInfo": {
+    "country": "US",
+    "viewability": "PARTIAL",
+    "embeddable": true,
+    "publicDomain": false,
+    "textToSpeechPermission": "ALLOWED",
+    "epub": {
+     "isAvailable": true,
+     "acsTokenLink": "http://books.google.com/books/download/Why_To_Kill_a_Mockingbird_Matters-sample-epub.acsm?id=r0dBDwAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+    },
+    "pdf": {
+     "isAvailable": false
+    },
+    "webReaderLink": "http://play.google.com/books/reader?id=r0dBDwAAQBAJ&hl=&printsec=frontcover&source=gbs_api",
+    "accessViewStatus": "SAMPLE",
+    "quoteSharingAllowed": false
+   },
+   "searchInfo": {
+    "textSnippet": "Tom Santopietro, an author well-known for his writing about American popular culture, delves into the heart of the beloved classic and shows readers why To Kill a Mockingbird matters more today than ever before."
+   }
+  },
+  {
+   "kind": "books#volume",
+   "id": "wklinRKAIgQC",
+   "etag": "39OUoXj3wvc",
+   "selfLink": "https://www.googleapis.com/books/v1/volumes/wklinRKAIgQC",
+   "volumeInfo": {
+    "title": "To Mock a Mockingbird",
+    "subtitle": "And Other Logic Puzzles Including an Amazing Adventure in Combinatory Logic",
+    "authors": [
+     "Raymond M. Smullyan"
+    ],
+    "publisher": "Oxford University Press, USA",
+    "publishedDate": "1985",
+    "description": "In this entertaining and challenging collection of logic puzzles, Raymond Smullyan - author of Forever Undecided - continues to delight and astonish us with his gift for making available, in the thoroughly pleasurable form of puzzles, some of the most important mathematical thinking of our time. In the first part of the book, he transports us once again to that wonderful realm where knights, knaves, twin sisters, quadruplet brothers, gods, demons, and mortals either always tell thetruth or always lie, and where truth-seekers are set a variety of fascinating problems. The section culminates in an enchanting and profound metapuzzle in which Inspector Craig of Scotland Yard gets involved in a search for the Fountain of Youth on the Island of Knights and Knaves. In the second part of To Mock a Mockingbird, we accompany the Inspector on a summer-long adventure into the field of combinatory logic (a branch of logic that plays an important role in computer science and artificial intelligence). His adventure, which includes enchanted forests, talking birds, bird sociologists, and a classic quest, provides for us along the way the pleasure of solving puzzles of increasing complexity until we reach the Master Forest and - thanks to Godel's famous theorem - the final revelation.",
+    "industryIdentifiers": [
+     {
+      "type": "ISBN_10",
+      "identifier": "0192801422"
+     },
+     {
+      "type": "ISBN_13",
+      "identifier": "9780192801425"
+     }
+    ],
+    "readingModes": {
+     "text": false,
+     "image": true
+    },
+    "pageCount": 246,
+    "printType": "BOOK",
+    "categories": [
+     "Logic"
+    ],
+    "maturityRating": "NOT_MATURE",
+    "allowAnonLogging": false,
+    "contentVersion": "preview-1.0.0",
+    "imageLinks": {
+     "smallThumbnail": "http://books.google.com/books/content?id=wklinRKAIgQC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+     "thumbnail": "http://books.google.com/books/content?id=wklinRKAIgQC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    "language": "en",
+    "previewLink": "http://books.google.com/books?id=wklinRKAIgQC&printsec=frontcover&dq=intitle:Mockingbird&hl=&cd=7&source=gbs_api",
+    "infoLink": "http://books.google.com/books?id=wklinRKAIgQC&dq=intitle:Mockingbird&hl=&source=gbs_api",
+    "canonicalVolumeLink": "https://books.google.com/books/about/To_Mock_a_Mockingbird.html?hl=&id=wklinRKAIgQC"
+   },
+   "saleInfo": {
+    "country": "US",
+    "saleability": "NOT_FOR_SALE",
+    "isEbook": false
+   },
+   "accessInfo": {
+    "country": "US",
+    "viewability": "PARTIAL",
+    "embeddable": true,
+    "publicDomain": false,
+    "textToSpeechPermission": "ALLOWED",
+    "epub": {
+     "isAvailable": false
+    },
+    "pdf": {
+     "isAvailable": false
+    },
+    "webReaderLink": "http://play.google.com/books/reader?id=wklinRKAIgQC&hl=&printsec=frontcover&source=gbs_api",
+    "accessViewStatus": "SAMPLE",
+    "quoteSharingAllowed": false
+   },
+   "searchInfo": {
+    "textSnippet": "In the first part of the book, he transports us once again to that wonderful realm where knights, knaves, twin sisters, quadruplet brothers, gods, demons, and mortals either always tell the truth or always lie, and where truth-seekers are ..."
+   }
+  },
+  {
+   "kind": "books#volume",
+   "id": "sziIMy_rAIgC",
+   "etag": "STj0c1UT9RA",
+   "selfLink": "https://www.googleapis.com/books/v1/volumes/sziIMy_rAIgC",
+   "volumeInfo": {
+    "title": "To Kill a Mockingbird (MAXNotes Literature Guides)",
+    "authors": [
+     "Anita Price Davis"
+    ],
+    "publisher": "Research & Education Assoc.",
+    "publishedDate": "2010",
+    "description": "REA's MAXnotes for Harper Lee's To Kill a Mockingbird MAXnotes offer a fresh look at masterpieces of literature, presented in a lively and interesting fashion. Written by literary experts who currently teach the subject, MAXnotes will enhance your understanding and enjoyment of the work. MAXnotes are designed to stimulate independent thought about the literary work by raising various issues and thought-provoking ideas and questions. MAXnotes cover the essentials of what one should know about each work, including an overall summary, character lists, an explanation and discussion of the plot, the work's historical context, illustrations to convey the mood of the work, and a biography of the author. Each chapter is individually summarized and analyzed, and has study questions and answers.",
+    "industryIdentifiers": [
+     {
+      "type": "ISBN_13",
+      "identifier": "9780738665429"
+     },
+     {
+      "type": "ISBN_10",
+      "identifier": "0738665428"
+     }
+    ],
+    "readingModes": {
+     "text": false,
+     "image": true
+    },
+    "pageCount": 128,
+    "printType": "BOOK",
+    "categories": [
+     "Study Aids"
+    ],
+    "averageRating": 4.0,
+    "ratingsCount": 1,
+    "maturityRating": "NOT_MATURE",
+    "allowAnonLogging": true,
+    "contentVersion": "preview-1.0.0",
+    "panelizationSummary": {
+     "containsEpubBubbles": false,
+     "containsImageBubbles": false
+    },
+    "imageLinks": {
+     "smallThumbnail": "http://books.google.com/books/content?id=sziIMy_rAIgC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+     "thumbnail": "http://books.google.com/books/content?id=sziIMy_rAIgC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    "language": "en",
+    "previewLink": "http://books.google.com/books?id=sziIMy_rAIgC&printsec=frontcover&dq=intitle:Mockingbird&hl=&cd=8&source=gbs_api",
+    "infoLink": "https://play.google.com/store/books/details?id=sziIMy_rAIgC&source=gbs_api",
+    "canonicalVolumeLink": "https://play.google.com/store/books/details?id=sziIMy_rAIgC"
+   },
+   "saleInfo": {
+    "country": "US",
+    "saleability": "FOR_SALE",
+    "isEbook": true,
+    "listPrice": {
+     "amount": 3.95,
+     "currencyCode": "USD"
+    },
+    "retailPrice": {
+     "amount": 3.0,
+     "currencyCode": "USD"
+    },
+    "buyLink": "https://play.google.com/store/books/details?id=sziIMy_rAIgC&rdid=book-sziIMy_rAIgC&rdot=1&source=gbs_api",
+    "offers": [
+     {
+      "finskyOfferType": 1,
+      "listPrice": {
+       "amountInMicros": 3950000.0,
+       "currencyCode": "USD"
+      },
+      "retailPrice": {
+       "amountInMicros": 3000000.0,
+       "currencyCode": "USD"
+      },
+      "giftable": true
+     }
+    ]
+   },
+   "accessInfo": {
+    "country": "US",
+    "viewability": "PARTIAL",
+    "embeddable": true,
+    "publicDomain": false,
+    "textToSpeechPermission": "ALLOWED",
+    "epub": {
+     "isAvailable": false
+    },
+    "pdf": {
+     "isAvailable": true,
+     "acsTokenLink": "http://books.google.com/books/download/To_Kill_a_Mockingbird_MAXNotes_Literatur-sample-pdf.acsm?id=sziIMy_rAIgC&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+    },
+    "webReaderLink": "http://play.google.com/books/reader?id=sziIMy_rAIgC&hl=&printsec=frontcover&source=gbs_api",
+    "accessViewStatus": "SAMPLE",
+    "quoteSharingAllowed": false
+   },
+   "searchInfo": {
+    "textSnippet": "Written by literary experts who currently teach the subject, MAXnotes will enhance your understanding and enjoyment of the work."
+   }
+  },
+  {
+   "kind": "books#volume",
+   "id": "P6bzCgUuVroC",
+   "etag": "l0wUg4aHfPs",
+   "selfLink": "https://www.googleapis.com/books/v1/volumes/P6bzCgUuVroC",
+   "volumeInfo": {
+    "title": "Harper Lee's To Kill a Mockingbird",
+    "subtitle": "A Full-length Play",
+    "authors": [
+     "Christopher Sergel"
+    ],
+    "publisher": "Dramatic Publishing",
+    "publishedDate": "1970",
+    "industryIdentifiers": [
+     {
+      "type": "ISBN_10",
+      "identifier": "0871290863"
+     },
+     {
+      "type": "ISBN_13",
+      "identifier": "9780871290861"
+     }
+    ],
+    "readingModes": {
+     "text": false,
+     "image": true
+    },
+    "pageCount": 202,
+    "printType": "BOOK",
+    "categories": [
+     "Performing Arts"
+    ],
+    "averageRating": 5.0,
+    "ratingsCount": 1,
+    "maturityRating": "NOT_MATURE",
+    "allowAnonLogging": false,
+    "contentVersion": "0.0.2.0.preview.1",
+    "panelizationSummary": {
+     "containsEpubBubbles": false,
+     "containsImageBubbles": false
+    },
+    "imageLinks": {
+     "smallThumbnail": "http://books.google.com/books/content?id=P6bzCgUuVroC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+     "thumbnail": "http://books.google.com/books/content?id=P6bzCgUuVroC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    "language": "en",
+    "previewLink": "http://books.google.com/books?id=P6bzCgUuVroC&printsec=frontcover&dq=intitle:Mockingbird&hl=&cd=9&source=gbs_api",
+    "infoLink": "http://books.google.com/books?id=P6bzCgUuVroC&dq=intitle:Mockingbird&hl=&source=gbs_api",
+    "canonicalVolumeLink": "https://books.google.com/books/about/Harper_Lee_s_To_Kill_a_Mockingbird.html?hl=&id=P6bzCgUuVroC"
+   },
+   "saleInfo": {
+    "country": "US",
+    "saleability": "NOT_FOR_SALE",
+    "isEbook": false
+   },
+   "accessInfo": {
+    "country": "US",
+    "viewability": "PARTIAL",
+    "embeddable": true,
+    "publicDomain": false,
+    "textToSpeechPermission": "ALLOWED",
+    "epub": {
+     "isAvailable": false
+    },
+    "pdf": {
+     "isAvailable": false
+    },
+    "webReaderLink": "http://play.google.com/books/reader?id=P6bzCgUuVroC&hl=&printsec=frontcover&source=gbs_api",
+    "accessViewStatus": "SAMPLE",
+    "quoteSharingAllowed": false
+   },
+   "searchInfo": {
+    "textSnippet": "Dramatization of the story about the explosion of racial hate in an Alabama town as viewed by a little girl whose father defends a black man accused of rape."
+   }
+  },
+  {
+   "kind": "books#volume",
+   "id": "dkA9DGpNizgC",
+   "etag": "r9CKaUNXMSM",
+   "selfLink": "https://www.googleapis.com/books/v1/volumes/dkA9DGpNizgC",
+   "volumeInfo": {
+    "title": "To Kill a MockingBird Book Summary",
+    "publisher": "BooksandBeyond",
+    "readingModes": {
+     "text": false,
+     "image": true
+    },
+    "printType": "BOOK",
+    "maturityRating": "NOT_MATURE",
+    "allowAnonLogging": false,
+    "contentVersion": "preview-1.0.0",
+    "imageLinks": {
+     "smallThumbnail": "http://books.google.com/books/content?id=dkA9DGpNizgC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+     "thumbnail": "http://books.google.com/books/content?id=dkA9DGpNizgC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    "language": "en",
+    "previewLink": "http://books.google.com/books?id=dkA9DGpNizgC&printsec=frontcover&dq=intitle:Mockingbird&hl=&cd=10&source=gbs_api",
+    "infoLink": "http://books.google.com/books?id=dkA9DGpNizgC&dq=intitle:Mockingbird&hl=&source=gbs_api",
+    "canonicalVolumeLink": "https://books.google.com/books/about/To_Kill_a_MockingBird_Book_Summary.html?hl=&id=dkA9DGpNizgC"
+   },
+   "saleInfo": {
+    "country": "US",
+    "saleability": "NOT_FOR_SALE",
+    "isEbook": false
+   },
+   "accessInfo": {
+    "country": "US",
+    "viewability": "PARTIAL",
+    "embeddable": true,
+    "publicDomain": false,
+    "textToSpeechPermission": "ALLOWED",
+    "epub": {
+     "isAvailable": false
+    },
+    "pdf": {
+     "isAvailable": false
+    },
+    "webReaderLink": "http://play.google.com/books/reader?id=dkA9DGpNizgC&hl=&printsec=frontcover&source=gbs_api",
+    "accessViewStatus": "SAMPLE",
+    "quoteSharingAllowed": false
+   }
+  }
+ ]
+}
