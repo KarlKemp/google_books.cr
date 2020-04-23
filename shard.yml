@@ -1,0 +1,9 @@
+name: google_books
+version: 0.1.0
+
+authors:
+  - Matthew McGarvey <tnraptor14@hotmail.com>
+
+crystal: 0.34.0
+
+license: MIT
