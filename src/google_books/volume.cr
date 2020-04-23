@@ -11,25 +11,25 @@ class GoogleBooks::Volume
 
     Volume.from_json(response.body)
   end
-  
+
   JSON.mapping(
     kind: String,
     id: String,
     etag: String,
-    self_link: { type: String, key: "selfLink" },
-    volume_info: { type: VolumeInfo, key: "volumeInfo" }
+    self_link: {type: String, key: "selfLink"},
+    volume_info: {type: VolumeInfo, key: "volumeInfo"}
   )
 
   class VolumeInfo
     JSON.mapping(
       title: String,
-      subtitle: { type: String, nilable: true },
-      authors: { type: Array(String), nilable: true },
+      subtitle: {type: String, nilable: true},
+      authors: {type: Array(String), nilable: true},
       publisher: String,
-      published_date: { type: String, key: "publishedDate", nilable: true },
-      description: { type: String, nilable: true },
-      industry_identifiers: { type: Array(IndustryIdentifier), key: "industryIdentifiers", nilable: true },
-      page_count: { type: Int32, key: "pageCount", nilable: true }
+      published_date: {type: String, key: "publishedDate", nilable: true},
+      description: {type: String, nilable: true},
+      industry_identifiers: {type: Array(IndustryIdentifier), key: "industryIdentifiers", nilable: true},
+      page_count: {type: Int32, key: "pageCount", nilable: true},
     )
   end
 
@@ -44,7 +44,7 @@ class GoogleBooks::Volume
     JSON.mapping(
       kind: String,
       items: Array(Volume),
-      total_items: { type: Int32, key: "totalItems" }
+      total_items: {type: Int32, key: "totalItems"}
     )
   end
 end

@@ -23,7 +23,7 @@ describe GoogleBooks::Volume do
         result.id.should eq "P6bzCgUuVroC"
       end
     end
-    
+
     it "returns nothing if volume not found" do
       VCR.use_cassette("volume_get_not_found") do
         result = GoogleBooks::Volume.get("P6bzCgUuVrhD")
