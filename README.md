@@ -2,8 +2,6 @@
 
 Simple api client to talk to Google Books
 
-[![GitHub release](https://img.shields.io/github/release/matthewmcgarvey/google_books.cr.svg)](https://github.com/matthewmcgarvey/google_books.cr/releases)
-
 ## Installation
 
 1. Add the dependency to your `shard.yml`:
