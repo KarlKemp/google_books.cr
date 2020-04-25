@@ -1,5 +1,5 @@
 name: google_books
-version: 0.1.1
+version: 0.2.0
 description: |
   Simple api client to talk to Google Books
 
