@@ -1,6 +1,7 @@
 class GoogleBooks::Volume
   def self.list(query) : ListResult
-    response = HTTP::Client.get "https://www.googleapis.com/books/v1/volumes?q=#{query}"
+    params = HTTP::Params.encode({q: query})
+    response = HTTP::Client.get "https://www.googleapis.com/books/v1/volumes?" + params
     ListResult.from_json(response.body)
   end
 
@@ -25,7 +26,7 @@ class GoogleBooks::Volume
       title: String,
       subtitle: {type: String, nilable: true},
       authors: {type: Array(String), default: [] of String},
-      publisher: String,
+      publisher: {type: String, nilable: true},
       published_date: {type: String, key: "publishedDate", nilable: true},
       description: {type: String, nilable: true},
       industry_identifiers: {type: Array(IndustryIdentifier), key: "industryIdentifiers", nilable: true},
@@ -37,7 +38,7 @@ class GoogleBooks::Volume
       average_rating: {type: Float32, key: "averageRating", nilable: true},
       ratings_count: {type: Int32, key: "ratingsCount", nilable: true},
       content_version: {type: String, key: "contentVersion"},
-      image_links: {type: ImageLinks, key: "imageLinks"}
+      image_links: {type: ImageLinks, key: "imageLinks", nilable: true}
     )
   end
 
