@@ -71,7 +71,7 @@ class GoogleBooks::Volume
   class ListResult
     JSON.mapping(
       kind: String,
-      items: Array(Volume),
+      items: {type: Array(Volume), default: [] of Volume},
       total_items: {type: Int32, key: "totalItems"}
     )
   end
